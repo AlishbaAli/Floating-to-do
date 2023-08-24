@@ -36,7 +36,19 @@ export default function App() {
  
   return (
     <>
-    
+   
+            <ul className="circles">
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+           
     <form onSubmit={handleSubmit} className='new-item-form'>
     <div className='form-row'>
       <label htmlFor='item'> New Item </label>
@@ -61,6 +73,8 @@ export default function App() {
       })}
        
     </ul>
+    </ul>
+   
     </>
   )
   
